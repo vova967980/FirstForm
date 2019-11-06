@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
+<form action="#">
+    <div class="userImageContainer"><img src="https://icon-library.net/images/windows-user-icon/windows-user-icon-14.jpg" alt="" class="cover"></div>
+    <div class="memberLogin">Member Login</div>
+    <input id="userName" placeholder="Username" type="text" name="UserName" required>
+    <br><br>
+    <input id="userPass" placeholder="Password" type="password" name="UserPassword" required>
+    <br><br>
+    <button id="SignIn" type="submit">Sign in</button>
+    <br><br>
+    <div class="RememberMeAndForgotPass">
+    <label for="checkBox1" class="label1">
+        <input id="checkBox1" type="checkbox" name="RememberMe"><span> Remember me</span>
+    </label>
+        <a href="#"><span>Forgot Password?</span></a>
+    </div>
+    <br><br><br>
+    <div class="signUp"><span>Don't have an account? </span><a href="#">Sign up here!</a></div>
+</form>
 </body>
 </html>
 
